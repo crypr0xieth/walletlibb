@@ -1,5 +1,4 @@
 # walletlib
-![PyPI - Python Version](https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9-blue)
 
 
 
@@ -81,16 +80,3 @@ wallet.dump_all(filepath="output.txt")
 wallet.dump_keys(filepath="output_keys.txt")
 ```
 
-## Roadmap
-- [x] wallet.dat
-  - [x] Encrypted keys
-  - [x] Auto-identify prefix
-  - [x] Decrypt encrypted keys
-  - [x] p2pkh Wallets
-  - [ ] Bech32 wallets
-- [x] Bitcoinj/Dogecoinj/Altcoinj wallets
-  - [x] Open unencrypted wallet-protobuf/multibit .wallet/.key files
-  - [ ] Decrypt encrypted wallets
-- [ ] Coinomi protobuf wallets
-- [ ] Blockchain.com wallet.aes.json
-- [ ] Documentation
